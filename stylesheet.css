@@ -1,0 +1,91 @@
+body {
+	border-radius: 10px;
+	font-family: Calibri, sans-serif;
+}
+
+div {
+	/*This solved the issue of the top-right contact info placement*/
+	clear: right;
+}
+
+/*Contains the name, email, address, phone #*/
+#header {
+	position: relative;
+	width: 92%;
+	text-align: right;
+	margin-left: 30px;
+}
+
+/*Name, address, email, etc.*/
+#info {
+	float: right;
+}
+
+/*Solid blue rectangle featuring 'Anthony Julin'*/
+.top-section {
+	position: relative;
+	margin-top: 60px;
+	width: 92%;
+	margin-left: 30px;
+	background-color: #6699ff;
+}
+
+/*'Anthony Julin'*/
+.top-section p{
+	font-size: large;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#education-section {
+	width: 94%;
+}
+
+#degree-info {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin-left: 250px;
+}
+
+#grade-info {
+	display: inline-block;
+	float: right;
+	padding-right: 30px;
+}
+
+
+.line {
+	text-align: left;
+	width: 95%;
+	margin-left: 30px;
+	margin-bottom: 18px;
+	height: 2px;
+	background-color: #6699ff;
+}
+
+.title {
+	margin-left: 30px;
+	color: #6699ff;
+}
+
+.details {
+	margin-left: 250px;
+	
+}
+
+h4 {
+	margin-bottom: 5px;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: circle;
+}
+p {
+	margin-top: 2px;
+}
+
+
